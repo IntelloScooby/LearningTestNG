@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Automation_Test_-_TestNG">
+              <span class="suite-name border-failed">Automation Test - TestNG</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Automation_Test_-_TestNG">
+                    <span>TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Automation_Test_-_TestNG">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Automation_Test_-_TestNG">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Automation_Test_-_TestNG">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Automation_Test_-_TestNG">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Automation_Test_-_TestNG">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Automation_Test_-_TestNG">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 3 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Automation_Test_-_TestNG" class="hide-methods failed suite-Automation_Test_-_TestNG"> (hide)</a> <!-- hide-methods failed suite-Automation_Test_-_TestNG -->
+                      <a href="#" panel-name="suite-Automation_Test_-_TestNG" class="show-methods failed suite-Automation_Test_-_TestNG"> (show)</a> <!-- show-methods failed suite-Automation_Test_-_TestNG -->
+                    </span>
+                    <div class="method-list-content failed suite-Automation_Test_-_TestNG">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_-_TestNG" title="ExcelParameters" hash-for-method="testFlight({destination=Orlando, origin=Las Vegas, adults=, arriving=9/8/2015, children=, departing=9/3/2015})">testFlight({destination=Orlando, origin=Las Vegas, adults=, arriving=9/8/2015, children=, departing=9/3/2015})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_-_TestNG" title="ExcelParameters" hash-for-method="testFlight({destination=LRD, origin=New York, adults=, arriving=9/7/2015, children=, departing=9/2/2015})">testFlight({destination=LRD, origin=New York, adults=, arriving=9/7/2015, children=, departing=9/2/2015})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_-_TestNG" title="ExcelParameters" hash-for-method="testFlight({destination=HNL, origin=Chicago, adults=, arriving=9/6/2015, children=, departing=9/5/2015})">testFlight({destination=HNL, origin=Chicago, adults=, arriving=9/6/2015, children=, departing=9/5/2015})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Automation_Test_-_TestNG -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Automation_Test_-_TestNG" class="panel Automation_Test_-_TestNG">
+          <div class="suite-Automation_Test_-_TestNG-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ExcelParameters</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFlight({destination=Orlando, origin=Las Vegas, adults=, arriving=9/8/2015, children=, departing=9/3/2015})">
+                  </a> <!-- testFlight({destination=Orlando, origin=Las Vegas, adults=, arriving=9/8/2015, children=, departing=9/3/2015}) -->
+                  <span class="method-name">testFlight</span>
+                  <span class="parameters">({destination=Orlando, origin=Las Vegas, adults=, arriving=9/8/2015, children=, departing=9/3/2015})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;Mikitas-MacBook-Air.local&apos;, ip: &apos;10.0.0.8&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:149)
+	at ExcelParameters.testFlight(ExcelParameters.java:46)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFlight({destination=LRD, origin=New York, adults=, arriving=9/7/2015, children=, departing=9/2/2015})">
+                  </a> <!-- testFlight({destination=LRD, origin=New York, adults=, arriving=9/7/2015, children=, departing=9/2/2015}) -->
+                  <span class="method-name">testFlight</span>
+                  <span class="parameters">({destination=LRD, origin=New York, adults=, arriving=9/7/2015, children=, departing=9/2/2015})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;Mikitas-MacBook-Air.local&apos;, ip: &apos;10.0.0.8&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:149)
+	at ExcelParameters.testFlight(ExcelParameters.java:46)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFlight({destination=HNL, origin=Chicago, adults=, arriving=9/6/2015, children=, departing=9/5/2015})">
+                  </a> <!-- testFlight({destination=HNL, origin=Chicago, adults=, arriving=9/6/2015, children=, departing=9/5/2015}) -->
+                  <span class="method-name">testFlight</span>
+                  <span class="parameters">({destination=HNL, origin=Chicago, adults=, arriving=9/6/2015, children=, departing=9/5/2015})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;Mikitas-MacBook-Air.local&apos;, ip: &apos;10.0.0.8&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:149)
+	at ExcelParameters.testFlight(ExcelParameters.java:46)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_-_TestNG-class-failed -->
+        </div> <!-- panel Automation_Test_-_TestNG -->
+        <div panel-name="test-xml-Automation_Test_-_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/mikitashah/Documents/workspace/LearningTestNG/TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Automation Test - TestNG&quot;&gt;
+  &lt;test name=&quot;Learning TestNG&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ExcelParameters&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Learning TestNG --&gt;
+&lt;/suite&gt; &lt;!-- Automation Test - TestNG --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Automation_Test_-_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Automation Test - TestNG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Learning TestNG (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Automation_Test_-_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Automation Test - TestNG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Automation_Test_-_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Automation Test - TestNG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Automation_Test_-_TestNG');
+function tableData_Automation_Test_-_TestNG() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testFlight')
+data.setCell(0, 2, 'ExcelParameters')
+data.setCell(0, 3, 14009);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testFlight')
+data.setCell(1, 2, 'ExcelParameters')
+data.setCell(1, 3, 9927);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testFlight')
+data.setCell(2, 2, 'ExcelParameters')
+data.setCell(2, 3, 9922);
+window.suiteTableData['Automation_Test_-_TestNG']= { tableData: data, tableDiv: 'times-div-Automation_Test_-_TestNG'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 33 seconds</span>
+              <div id="times-div-Automation_Test_-_TestNG">
+              </div> <!-- times-div-Automation_Test_-_TestNG -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Automation_Test_-_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Automation Test - TestNG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Automation_Test_-_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Automation_Test_-_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ExcelParameters</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testFlight({destination=HNL, origin=Chicago, adults=, arriving=9/6/2015, children=, departing=9/5/2015})</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testFlight({destination=LRD, origin=New York, adults=, arriving=9/7/2015, children=, departing=9/2/2015})</span>
+                <span class="method-start">14010 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testFlight({destination=Orlando, origin=Las Vegas, adults=, arriving=9/8/2015, children=, departing=9/3/2015})</span>
+                <span class="method-start">23937 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
